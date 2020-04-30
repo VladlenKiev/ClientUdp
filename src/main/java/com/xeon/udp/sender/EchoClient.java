@@ -1,4 +1,4 @@
-package com.xeon.udp.core;
+package com.xeon.udp.sender;
 
 import org.springframework.stereotype.Component;
 
