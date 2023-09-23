@@ -15,7 +15,7 @@ public class EchoClient {
     public EchoClient() {
         try {
             socket = new DatagramSocket();
-            address = InetAddress.getByName("localhost");
+            address = InetAddress.getByName("127.0.0.1");
 
         } catch (SocketException e) {
             e.printStackTrace();
